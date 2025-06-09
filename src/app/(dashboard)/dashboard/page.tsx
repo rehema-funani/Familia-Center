@@ -1,10 +1,15 @@
 import { Metadata } from 'next'
 import { Suspense } from 'react'
-import DashboardHeader from './components/DashboardHeader'
-import StatCards from './components/StatCards'
-import UpcomingSessions from './components/UpcomingSessions'
-import ProgressTracker from './components/ProgressTracker'
-import QuickActions from './components/QuickActions'
+// import DashboardHeader from './components/DashboardHeader'
+// import StatCards from './components/StatCards'
+// import UpcomingSessions from './components/UpcomingSessions'
+// import ProgressTracker from './components/ProgressTracker'
+// import QuickActions from './components/QuickActions'
+import ProgressTracker from '@/app/components/ProgressTracker'
+import QuickActions from '@/app/components/QuickActions'
+import UpcomingSessions from '@/app/components/UpcomingSessions'
+import StatCards from '@/app/components/StatCards'
+import DashboardHeader from '@/app/components/DashboardHeader'
 
 export const metadata: Metadata = {
   title: 'Dashboard | Family Center',
